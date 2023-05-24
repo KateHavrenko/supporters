@@ -1,9 +1,3 @@
-/**
-* Template Name: Baker - v4.8.1
-* Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -604,6 +598,7 @@ section {
 }
 
 .counts .counters span {
+  position: relative;
   font-size: 38px;
   display: inline-block;
   color: #414c64;
@@ -616,11 +611,12 @@ section {
   font-size: 14px;
 }
 
-.counters .purecounter {
+.counters .border-circle {
+  display: inline-block;
   width: 190px;
   border: 3px solid blue;
   border-radius: 50%;
-  padding: 55px 0px;
+  padding: 60px 0px;
 }
 
 /*--------------------------------------------------------------
@@ -1646,18 +1642,6 @@ section {
   width: 0;
 }
 
-.bar-graph-one .bar::after {
-  -webkit-animation: fade-in-text 2.2s 0.1s forwards;
-  -moz-animation: fade-in-text 2.2s 0.1s forwards;
-  animation: fade-in-text 2.2s 0.1s forwards;
-  color: #fff;
-  content: attr(data-percentage);
-  font-weight: 700;
-  position: absolute;
-  right: 16px;
-  top: 17px;
-}
-
 .bar-graph-one .bar-one .bar {
   background-color: #64b2d1;
   -webkit-animation: show-bar-one 1.2s 0.1s forwards;
@@ -1666,25 +1650,68 @@ section {
 }
 
 .bar-graph-one .bar-two .bar {
-  background-color: #5292ac;
+  background-color: #4eafd5;
   -webkit-animation: show-bar-two 1.2s 0.2s forwards;
   -moz-animation: show-bar-two 1.2s 0.2s forwards;
   animation: show-bar-two 1.2s 0.2s forwards;
 }
 
 .bar-graph-one .bar-three .bar {
-  background-color: #407286;
+  background-color: #4eafd5;
   -webkit-animation: show-bar-three 1.2s 0.3s forwards;
   -moz-animation: show-bar-three 1.2s 0.3s forwards;
   animation: show-bar-three 1.2s 0.3s forwards;
 }
 
 .bar-graph-one .bar-four .bar {
-  background-color: #2e515f;
+  background-color: #28b3e9;
   -webkit-animation: show-bar-four 1.2s 0.4s forwards;
   -moz-animation: show-bar-four 1.2s 0.4s forwards;
   animation: show-bar-four 1.2s 0.4s forwards;
 }
+
+.bar-graph-one .bar-five .bar {
+  background-color: #3f9acc;
+  -webkit-animation: show-bar-five 1.2s 0.4s forwards;
+  -moz-animation: show-bar-five 1.2s 0.4s forwards;
+  animation: show-bar-five 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-six .bar {
+  background-color: #1386c6;
+  -webkit-animation: show-bar-six 1.2s 0.4s forwards;
+  -moz-animation: show-bar-six 1.2s 0.4s forwards;
+  animation: show-bar-six 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-seven .bar {
+  background-color: #0965b1;
+  -webkit-animation: show-bar-seven 1.2s 0.4s forwards;
+  -moz-animation: show-bar-seven 1.2s 0.4s forwards;
+  animation: show-bar-seven 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-eight .bar {
+  background-color: #0d5188;
+  -webkit-animation: show-bar-eight 1.2s 0.4s forwards;
+  -moz-animation: show-bar-eight 1.2s 0.4s forwards;
+  animation: show-bar-eight 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-nine .bar {
+  background-color: #0d5188;
+  -webkit-animation: show-bar-nine 1.2s 0.4s forwards;
+  -moz-animation: show-bar-nine 1.2s 0.4s forwards;
+  animation: show-bar-nine 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-ten .bar {
+  background-color: #0e3f67;
+  -webkit-animation: show-bar-ten 1.2s 0.4s forwards;
+  -moz-animation: show-bar-ten 1.2s 0.4s forwards;
+  animation: show-bar-ten 1.2s 0.4s forwards;
+}
+
 
 /* Bar Graph Horizontal Animations */
 @-webkit-keyframes show-bar-one {
@@ -1693,7 +1720,7 @@ section {
   }
 
   100% {
-    width: 69.6%;
+    width: 41%;
   }
 }
 
@@ -1703,7 +1730,7 @@ section {
   }
 
   100% {
-    width: 71%;
+    width: 60%;
   }
 }
 
@@ -1713,7 +1740,7 @@ section {
   }
 
   100% {
-    width: 74.7%;
+    width: 75%;
   }
 }
 
@@ -1723,9 +1750,70 @@ section {
   }
 
   100% {
-    width: 76.8%;
+    width: 96%;
   }
 }
+
+@-webkit-keyframes show-bar-five {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes show-bar-six {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 38%;
+  }
+}
+
+@-webkit-keyframes show-bar-seven {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 37%;
+  }
+}
+
+@-webkit-keyframes show-bar-eight {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 19%;
+  }
+}
+
+@-webkit-keyframes show-bar-nine {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 36%;
+  }
+}
+
+@-webkit-keyframes show-bar-ten {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 12%;
+  }
+}
+
 
 @-webkit-keyframes fade-in-text {
   0% {
